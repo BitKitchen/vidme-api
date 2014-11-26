@@ -1,0 +1,27 @@
+{
+    "name": "bjdelange/vidme-api",
+    "type": "library",
+    "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+    "keywords": ["vidme", "api", "client", "HTTP client", "rest", "video"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bert-Jan de Lange",
+            "email": "info@bert-jan.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vidme\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
